@@ -1,0 +1,28 @@
+export const DEFAULTS = {
+  projectName: "next-skeleton-app",
+  router: "app",
+  github: { enabled: true, visibility: "private" },
+  install: true,
+  shadcn: {
+    enabled: true as const,
+    components: [
+      "button",
+      "input",
+      "dialog",
+      "card",
+      "dropdown-menu",
+      "form",
+      "label",
+      "select",
+      "textarea",
+      "accordion",
+      "alert",
+      "avatar",
+      "badge",
+      "breadcrumb",
+      "checkbox",
+      "separator",
+      "tooltip",
+    ],
+  },
+} as const;
