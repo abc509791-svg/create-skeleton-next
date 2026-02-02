@@ -1,7 +1,7 @@
 # create-skeleton-next
 
 [![CI](https://github.com/jorggerojas/create-skeleton-next/actions/workflows/ci.yml/badge.svg)](https://github.com/jorggerojas/create-skeleton-next/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/jorggerojas/create-skeleton-next/branch/main/graph/badge.svg)](https://codecov.io/gh/jorggerojas/create-skeleton-next)
+[![codecov](https://codecov.io/gh/jorggerojas/create-skeleton-next/graph/badge.svg?token=U7SD9KM883)](https://codecov.io/gh/jorggerojas/create-skeleton-next)
 [![npm version](https://badge.fury.io/js/create-skeleton-next.svg)](https://www.npmjs.com/package/create-skeleton-next)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -143,21 +143,6 @@ This CLI uses the following GitHub template repositories:
 - **[git](https://git-scm.com/)** - For repository initialization (optional, but recommended)
 
 ## Development
-
-### Environment Setup
-
-The project uses environment variables for template configuration:
-
-```bash
-# Copy example env file
-cp .env.example .env.local
-
-# For testing, use .env.test (automatically loaded by vitest)
-# .env.test contains:
-# USERNAME=jorggerojas
-# TEMPLATE_REPO_APP=next-skeleton-app
-# TEMPLATE_REPO_PAGES=next-skeleton-page
-```
 
 ### Local Testing
 

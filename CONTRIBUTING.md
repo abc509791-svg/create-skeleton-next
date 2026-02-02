@@ -17,20 +17,6 @@ cd create-skeleton-next
 pnpm install
 ```
 
-### **Setup environment variables**
-
-```bash
-# Copy example env file for local development
-cp .env.example .env.local
-
-# Edit .env.local with your values
-# USERNAME=your-github-username
-# TEMPLATE_REPO_APP=your-app-template
-# TEMPLATE_REPO_PAGES=your-pages-template
-```
-
-**Note:** Tests automatically use `.env.test` which contains default values.
-
 ### **Build the project**
 
 ```bash
@@ -40,7 +26,7 @@ pnpm build
 ### **Run tests**
 
 ```bash
-pnpm test  # Automatically loads .env.test
+pnpm test
 ```
 
 ## Development Workflow
