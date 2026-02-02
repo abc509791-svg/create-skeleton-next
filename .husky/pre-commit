@@ -1,1 +1,1 @@
-pnpx lint-staged --verbose
+pnpm exec lint-staged --verbose
