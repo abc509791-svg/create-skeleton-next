@@ -144,21 +144,6 @@ This CLI uses the following GitHub template repositories:
 
 ## Development
 
-### Environment Setup
-
-The project uses environment variables for template configuration:
-
-```bash
-# Copy example env file
-cp .env.example .env.local
-
-# For testing, use .env.test (automatically loaded by vitest)
-# .env.test contains:
-# USERNAME=jorggerojas
-# TEMPLATE_REPO_APP=next-skeleton-app
-# TEMPLATE_REPO_PAGES=next-skeleton-page
-```
-
 ### Local Testing
 
 ```bash

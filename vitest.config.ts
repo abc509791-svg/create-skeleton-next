@@ -1,10 +1,6 @@
 import { defineConfig } from "vitest/config";
 import path from "node:path";
-import { config } from "dotenv";
 import { codecovVitePlugin } from "@codecov/vite-plugin";
-
-// Load test environment variables from .env.test
-config({ path: path.resolve(__dirname, ".env.test") });
 
 export default defineConfig({
   plugins: [
@@ -17,11 +13,6 @@ export default defineConfig({
   test: {
     globals: true,
     environment: "node",
-    env: {
-      USERNAME: process.env.USERNAME || "",
-      TEMPLATE_REPO_APP: process.env.TEMPLATE_REPO_APP || "",
-      TEMPLATE_REPO_PAGES: process.env.TEMPLATE_REPO_PAGES || "",
-    },
     coverage: {
       provider: "istanbul",
       reporter: ["text", "json", "html", "lcov"],

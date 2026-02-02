@@ -55,7 +55,6 @@
     "@types/node": "22.10.0",
     "@types/prompts": "2.4.9",
     "@vitest/coverage-istanbul": "4.0.18",
-    "dotenv": "17.2.3",
     "happy-dom": "20.3.9",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
