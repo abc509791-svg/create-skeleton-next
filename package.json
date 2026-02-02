@@ -4,7 +4,7 @@
   "description": "CLI to scaffold Next.js projects from skeleton templates",
   "type": "module",
   "bin": {
-    "create-skeleton-next": "./dist/index.js"
+    "create-skeleton-next": "dist/index.js"
   },
   "files": [
     "dist"
