@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/jorggerojas/create-skeleton-next/compare/v0.1.0...v1.0.0) (2026-02-02)
+
+
+### Bug Fixes
+
+* **husky,pnpm:** remove pnpm-workspace.yaml and update husky hooks ([4b99fce](https://github.com/jorggerojas/create-skeleton-next/commit/4b99fce1e7a1db73589ca2e6c30b53e8c46e09f2))
+* **workflows:** add build step before test ([b43e6a3](https://github.com/jorggerojas/create-skeleton-next/commit/b43e6a31ded4aeca953002e54a3bfd77c098c5f0))
+
 ## [0.1.0] - 2024-02-01
 
 ### Features
