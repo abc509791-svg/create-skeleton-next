@@ -1,7 +1,7 @@
 # create-skeleton-next
 
 [![CI](https://github.com/jorggerojas/create-skeleton-next/actions/workflows/ci.yml/badge.svg)](https://github.com/jorggerojas/create-skeleton-next/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/jorggerojas/create-skeleton-next/branch/main/graph/badge.svg)](https://codecov.io/gh/jorggerojas/create-skeleton-next)
+[![codecov](https://codecov.io/gh/jorggerojas/create-skeleton-next/graph/badge.svg?token=U7SD9KM883)](https://codecov.io/gh/jorggerojas/create-skeleton-next)
 [![npm version](https://badge.fury.io/js/create-skeleton-next.svg)](https://www.npmjs.com/package/create-skeleton-next)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

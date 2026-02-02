@@ -1,11 +1,19 @@
 import { defineConfig } from "vitest/config";
 import path from "node:path";
 import { config } from "dotenv";
+import { codecovVitePlugin } from "@codecov/vite-plugin";
 
 // Load test environment variables from .env.test
 config({ path: path.resolve(__dirname, ".env.test") });
 
 export default defineConfig({
+  plugins: [
+    codecovVitePlugin({
+      enableBundleAnalysis: process.env.CODECOV_TOKEN !== undefined,
+      bundleName: "create-skeleton-next",
+      uploadToken: process.env.CODECOV_TOKEN,
+    }),
+  ],
   test: {
     globals: true,
     environment: "node",
